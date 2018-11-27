@@ -4,6 +4,7 @@ Install the Zeit CLI (https://github.com/zeit/now-cli) and login. Run the follow
 
 ```
 git clone https://github.com/philals/sso-sample-zeit-now
+cd ./sso-sample-zeit-now
 now -e XERO_CLIENT_ID=@{Your client ID},
 now -e XERO_CLIENT_SECRET=@{Your client secret}
 now
