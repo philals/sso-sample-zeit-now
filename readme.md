@@ -28,15 +28,16 @@ Alternativly add this to your `now.json` for configure env vars.
 ```
 
 
-#### One click deploy (NOT WORKING AT THE MOMENT)
+~~#### One click deploy~~ (NOT WORKING AT THE MOMENT)
+
 [![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/philals/sso-sample-zeit-now&env=XERO_CLIENT_ID&env=XERO_CLIENT_SECRET)
 
-Add the follow env vars:
+~~Add the follow env vars:~~
 
 ```
 XERO_CLIENT_ID: {Your client ID},
 XERO_CLIENT_SECRET: {Your client secret}
 ```
 
-If this is you're first time using `deploy.now.sh` you will need to add an API key for the `ZEIT API TOKEN` app.
+~~If this is you're first time using `deploy.now.sh` you will need to add an API key for the `ZEIT API TOKEN` app.~~
 
