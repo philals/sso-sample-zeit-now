@@ -1,4 +1,4 @@
-[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/philals/sso-sample)
+[![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/philals/sso-sample-zeit-now&env=XERO_CLIENT_ID&env=XERO_CLIENT_SECRET)
 
 # One click deploy
 
