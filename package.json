@@ -1,0 +1,19 @@
+{
+  "name": "sso-with-openid-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "heroku-build": "heroku container:push web --app sso-ppp",
+    "heroku-deploy": "heroku container:release web --app sso-ppp",
+    "heroku": "npm run heroku-build && npm run heroku-deploy",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "openid-client": "^2.4.5"
+  }
+}

@@ -1,0 +1,26 @@
+{
+   "name": "sso-zeit",
+   "alias": "sso.philalsford.com",
+   "version": 2,
+   "env": {
+      "MY_VARIABLE": "@acme-api-key"
+   },
+   "builds": [
+      {
+         "src": "index.js",
+         "use": "@now/node-server"
+      },
+      {
+         "src": "login/index.js",
+         "use": "@now/node-server"
+      },
+      {
+         "src": "callback/index.js",
+         "use": "@now/node-server"
+      },
+      {
+         "src": "images/*.png",
+         "use": "@now/static"
+      }
+   ]
+}
