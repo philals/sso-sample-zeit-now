@@ -9,11 +9,11 @@ now -e XERO_CLIENT_SECRET=@{Your client secret}
 now
 ```
 
-You will be given a now URL for your app. Replace the call back url with this URL and append `/callback` to it. 
+You will be given a now URL for your app. Replace the callback url (https://developer.xero.com/myapps) with this URL and append `/callback` to it. 
 
 Check out `shared.js` for how the app is generating it's callback URL.
 
-### Hard code ENV Vars
+#### Hard code ENV Vars
 
 Alternativly add this to your `now.json` for configure env vars.
 
@@ -27,7 +27,7 @@ Alternativly add this to your `now.json` for configure env vars.
 ```
 
 
-# One click deploy (NOT WORKING AT THE MOMENT)
+#### One click deploy (NOT WORKING AT THE MOMENT)
 [![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/philals/sso-sample-zeit-now&env=XERO_CLIENT_ID&env=XERO_CLIENT_SECRET)
 
 Add the follow env vars:
