@@ -10,13 +10,13 @@ now -e XERO_CLIENT_SECRET=@{Your client secret}
 now
 ```
 
-You will be given a now URL for your app. Replace the callback url (https://developer.xero.com/myapps) with this URL and append `/callback` to it. 
+You will be given a `now` URL for your app. Replace the callback URL (https://developer.xero.com/myapps) with this URL and append `/callback` to it. 
 
-Check out `shared.js` for how the app is generating it's callback URL.
+Check out `shared.js` for how the app is generating its callback URL.
 
-#### Hard code ENV Vars
+#### Hard code environment variables
 
-Alternativly add this to your `now.json` for configure env vars.
+Alternatively add this to your `now.json` to configure env vars.
 
 ```
 {
@@ -39,5 +39,5 @@ XERO_CLIENT_ID: {Your client ID},
 XERO_CLIENT_SECRET: {Your client secret}
 ```
 
-~~If this is you're first time using `deploy.now.sh` you will need to add an API key for the `ZEIT API TOKEN` app.~~
+~~If this is your first time using `deploy.now.sh` you will need to add an API key for the `ZEIT API TOKEN` app.~~
 
